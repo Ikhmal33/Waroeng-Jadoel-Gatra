@@ -1,0 +1,1030 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Waroeng Jadoel Gatra Kencana | Authentic Javanese Heritage</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+    <!-- AOS (Animate On Scroll) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Sora:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-surface": "#5D4037",
+              "on-primary-fixed-variant": "#5D4037",
+              "on-tertiary-fixed": "#061f1e",
+              "inverse-surface": "#333121",
+              "surface-container-highest": "#E9E2CC",
+              "primary-fixed": "#FFDBD0",
+              "outline-variant": "#D4C3BE",
+              "inverse-primary": "#E7BDB1",
+              "tertiary-fixed": "#CDE8E5",
+              "tertiary-fixed-dim": "#B1CCC9",
+              "on-background": "#5D4037",
+              "on-primary-container": "#FFFFFF",
+              "surface-container": "#F5EED7",
+              "primary-container": "#5D4037",
+              "tertiary-container": "#8D6E63",
+              "surface-container-high": "#EFE8D2",
+              "on-error-container": "#93000A",
+              "surface-container-lowest": "#FFFFFF",
+              "on-surface-variant": "#8D6E63",
+              "error-container": "#FFDAD6",
+              "on-secondary-fixed": "#1D1B16",
+              outline: "#8D6E63",
+              "surface-tint": "#BF360C",
+              "on-primary": "#FFFFFF",
+              "on-secondary": "#FFFFFF",
+              "primary-fixed-dim": "#E7BDB1",
+              "on-tertiary-fixed-variant": "#334B49",
+              "secondary-fixed": "#FFDBD1",
+              error: "#BA1A1A",
+              "surface-variant": "#E9E2CC",
+              "on-secondary-container": "#FFFFFF",
+              "surface-container-low": "#FAF4DD",
+              surface: "#FFF8E1",
+              primary: "#5D4037",
+              background: "#FFF8E1",
+              tertiary: "#8D6E63",
+              "secondary-container": "#BF360C",
+              "on-tertiary-container": "#FFFFFF",
+              "inverse-on-surface": "#FFF9EA",
+              "on-primary-fixed": "#2C160E",
+              "secondary-fixed-dim": "#FFB5A1",
+              "on-tertiary": "#FFFFFF",
+              secondary: "#BF360C",
+              "on-error": "#FFFFFF",
+              "on-secondary-fixed-variant": "#881F00",
+              "surface-dim": "#E0DAC4",
+              "surface-bright": "#FFF8E1",
+            },
+            borderRadius: {
+              DEFAULT: "0.125rem",
+              lg: "0.25rem",
+              xl: "0.5rem",
+              full: "0.75rem",
+            },
+            spacing: {
+              "margin-mobile": "16px",
+              gutter: "24px",
+              "container-max": "1280px",
+              "section-gap": "80px",
+              base: "8px",
+              "margin-desktop": "64px",
+            },
+            fontFamily: {
+              "headline-lg": ["Playfair Display"],
+              "body-md": ["Sora"],
+              "headline-xl": ["Playfair Display"],
+              "headline-md": ["Playfair Display"],
+              "label-md": ["Sora"],
+              "body-lg": ["Sora"],
+              "headline-lg-mobile": ["Playfair Display"],
+              "body-sm": ["Sora"],
+            },
+            fontSize: {
+              "headline-lg": [
+                "32px",
+                { lineHeight: "40px", fontWeight: "700" },
+              ],
+              "body-md": ["16px", { lineHeight: "24px", fontWeight: "400" }],
+              "headline-xl": [
+                "48px",
+                {
+                  lineHeight: "56px",
+                  letterSpacing: "-0.02em",
+                  fontWeight: "700",
+                },
+              ],
+              "headline-md": [
+                "24px",
+                { lineHeight: "32px", fontWeight: "600" },
+              ],
+              "label-md": [
+                "12px",
+                {
+                  lineHeight: "16px",
+                  letterSpacing: "0.05em",
+                  fontWeight: "600",
+                },
+              ],
+              "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }],
+              "headline-lg-mobile": [
+                "28px",
+                { lineHeight: "36px", fontWeight: "700" },
+              ],
+              "body-sm": ["14px", { lineHeight: "20px", fontWeight: "400" }],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-surface text-on-surface font-body-md">
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- ==================
+         TOP NAV BAR
+         ================== -->
+    <header
+      id="main-header"
+      class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-sm border-b border-outline-variant/30 transition-all duration-300"
+    >
+      <div
+        class="max-w-container-max mx-auto px-6 md:px-margin-desktop h-20 flex justify-between items-center"
+      >
+        <div class="font-headline-md text-headline-md font-bold text-primary">
+          Waroeng Jadoel Gatra Kencana
+        </div>
+        <nav class="hidden md:flex items-center gap-8">
+          <a
+            class="font-body-md text-body-md text-primary border-b-2 border-primary pb-1 cursor-pointer"
+            data-scroll="#hero"
+            >Home</a
+          >
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors cursor-pointer"
+            data-scroll="#menu"
+            >Menu</a
+          >
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors cursor-pointer"
+            data-scroll="#about"
+            >About Us</a
+          >
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors cursor-pointer"
+            data-scroll="#contact"
+            >Contact</a
+          >
+        </nav>
+        <button
+          id="reservation-btn"
+          class="bg-secondary text-on-primary px-6 py-2 rounded-lg font-label-md active:scale-95 transform transition-transform hover:opacity-90 cursor-pointer"
+        >
+          Reservations
+        </button>
+      </div>
+    </header>
+
+    <!-- ==================
+         HERO SECTION
+         ================== -->
+    <section
+      id="hero"
+      class="relative h-screen min-h-[700px] flex items-center pt-20 overflow-hidden"
+    >
+      <div class="absolute inset-0 z-0">
+        <img
+          class="w-full h-full object-cover"
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuDskv1yb_8vMuG6v3TTOFDvQcP7_7xWUyul2sORHa5cIEerzjpZ6L5SgbmJcQiRl0uhJSD5h9zcjezLCgCT1DpoctBcgpOuWG-DPW0_H9pwy9eu0EE7-2K82U8WJHv2o6VVIe5EqQ_xSEL4G6a7CFpHsCxFBGiFZlje94HESQBizR_XVDwLtjL5ZELO3c4Y5lpnIxjdPGX-fvXjBvkvifO_RmIDhfcxh0z4HRqxKc5MMVy5x5R2nL6NiQxbIKgdSgDgoiZLGhCL5bs"
+          alt="Waroeng Jadoel Gatra Kencana - Rumah Joglo Tradisional"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-r from-surface via-surface/60 to-transparent"
+        ></div>
+      </div>
+
+      <div
+        class="relative z-10 max-w-container-max mx-auto px-6 md:px-margin-desktop w-full"
+      >
+        <div class="max-w-2xl" data-aos="fade-up" data-aos-duration="900">
+          <h1 class="font-headline-xl text-headline-xl text-primary mb-6">
+            Cita Rasa Otentik di Jantung Tradisi.
+          </h1>
+          <p class="font-body-lg text-body-lg text-on-surface-variant mb-10">
+            Nikmati kehangatan masakan rumah di bawah naungan rumah Joglo
+            klasik. Sebuah perayaan warisan kuliner Jawa yang autentik.
+          </p>
+          <div class="flex gap-4 flex-wrap">
+            <a
+              class="hero-cta-primary bg-secondary text-on-primary px-8 py-4 rounded-xl font-body-md font-bold cursor-pointer"
+              data-scroll="#menu"
+              >Lihat Menu</a
+            >
+            <a
+              class="border border-primary text-primary px-8 py-4 rounded-xl font-body-md font-bold hover:bg-surface-container transition-colors cursor-pointer"
+              data-scroll="#about"
+              >Kisah Kami</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================
+         FEATURED MENU
+         ================== -->
+    <section id="featured" class="py-section-gap relative">
+      <div class="absolute inset-0 batik-overlay pointer-events-none"></div>
+      <div class="max-w-container-max mx-auto px-6 md:px-margin-desktop">
+        <div class="text-center mb-16" data-aos="fade-up">
+          <span class="text-secondary font-label-md tracking-widest uppercase"
+            >Keunggulan Kami</span
+          >
+          <h2 class="font-headline-lg text-headline-lg mt-2 text-primary">
+            Menu Andalan
+          </h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-gutter">
+          <!-- Card 1 -->
+          <div
+            class="group relative bg-surface border border-outline-variant/30 rounded-xl overflow-hidden shadow-[0_20px_40px_-15px_rgba(93,64,55,0.05)] hover:shadow-lg transition-all duration-500"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="h-80 overflow-hidden relative">
+              <img
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeRoIq2KRTfn6gKWqhPpva_4-Now2L_LlWHe2Ntpqe2SI1mQH4U2iu376NxDtd3nG1kgq9aJQbIiiEI6tOIgprYShnfyGH1CA-IvFCsczd-kxUZV0QFARDUO-GNQqfERoczkhuiMUUjaITTMwUeW2wfnEggcsVCCcioYjMb-mQKwp522Z-C7e_3sP6a3zmSg5aNJd4pcYznAkIYQJR7xR7NIGKhHynLccpY79-FuxYV_29R38ifTABUlol5pAEulPZMn-pu9UfwlM"
+                alt="Sayur Jantung Pisang"
+              />
+              <div
+                class="absolute top-4 right-4 bg-secondary text-on-primary px-3 py-1 rounded-full font-label-md"
+              >
+                Best Seller
+              </div>
+            </div>
+            <div class="p-8">
+              <h3 class="font-headline-md text-headline-md text-primary mb-2">
+                Sayur Jantung Pisang
+              </h3>
+              <p class="text-on-surface-variant mb-6">
+                Olahan jantung pisang pilihan yang dimasak perlahan dalam santan
+                gurih berempah khas pedesaan Jawa.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="font-headline-md text-secondary">Rp 28.000</span>
+                <span
+                  class="material-symbols-outlined text-secondary group-hover:translate-x-2 transition-transform"
+                  >arrow_forward</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="group relative bg-surface border border-outline-variant/30 rounded-xl overflow-hidden shadow-[0_20px_40px_-15px_rgba(93,64,55,0.05)] hover:shadow-lg transition-all duration-500"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="h-80 overflow-hidden relative">
+              <img
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB61m_K-Wnt5npjLIXhlXjIpJwYeqZktO4VgM-inolxpZ98_haMugx8KAajoN_pQks2Fmdhc2hHSkmBRa-td5TxUcS50F6jMzqv36yrmuuloosuh3wq2bwCHw0umkIrPl6ehKD7S45LJiTFSfsR_TucGuNeKqwb9nKs1tMO5gPRAZFAXnCbPyYW6cYJT60SogJjiewCn4cWdTsF45ILcGWhTrPAEVAuYHrGsPGBDci0zrG5bLbospIM77i-_4EtuJDh9585BQXQM5o"
+                alt="Garang Asem Ayam Kampung"
+              />
+              <div
+                class="absolute top-4 right-4 bg-tertiary-container text-on-tertiary-container px-3 py-1 rounded-full font-label-md"
+              >
+                Traditional Choice
+              </div>
+            </div>
+            <div class="p-8">
+              <h3 class="font-headline-md text-headline-md text-primary mb-2">
+                Garang Asem Ayam Kampung
+              </h3>
+              <p class="text-on-surface-variant mb-6">
+                Ayam kampung pilihan dengan kuah segar pedas asam, dibungkus
+                daun pisang dan dikukus hingga meresap sempurna.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="font-headline-md text-secondary">Rp 45.000</span>
+                <span
+                  class="material-symbols-outlined text-secondary group-hover:translate-x-2 transition-transform"
+                  >arrow_forward</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================
+         FULL MENU PREVIEW
+         ================== -->
+    <section class="py-section-gap bg-surface-container-low relative" id="menu">
+      <div class="max-w-container-max mx-auto px-6 md:px-margin-desktop">
+        <div
+          class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6"
+          data-aos="fade-up"
+        >
+          <div>
+            <h2 class="font-headline-lg text-headline-lg text-primary">
+              Daftar Menu Kami
+            </h2>
+            <p class="text-on-surface-variant mt-2 max-w-lg">
+              Pilihan hidangan tradisional yang diolah dengan bahan organik
+              berkualitas dari petani lokal di Pemalang.
+            </p>
+          </div>
+          <div class="flex gap-3 flex-wrap">
+            <button
+              class="filter-btn active bg-secondary text-on-primary px-6 py-2 rounded-full font-label-md border border-secondary"
+              data-filter="all"
+            >
+              Semua
+            </button>
+            <button
+              class="filter-btn border border-outline text-on-surface-variant px-6 py-2 rounded-full font-label-md hover:bg-surface-variant transition-colors"
+              data-filter="makanan"
+            >
+              Makanan
+            </button>
+            <button
+              class="filter-btn border border-outline text-on-surface-variant px-6 py-2 rounded-full font-label-md hover:bg-surface-variant transition-colors"
+              data-filter="minuman"
+            >
+              Minuman
+            </button>
+            <button
+              class="filter-btn border border-outline text-on-surface-variant px-6 py-2 rounded-full font-label-md hover:bg-surface-variant transition-colors"
+              data-filter="cemilan"
+            >
+              Cemilan
+            </button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+          <!-- Category: Makanan -->
+          <div
+            class="menu-category space-y-6"
+            data-category="makanan"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <h3
+              class="font-headline-md text-primary border-b border-outline-variant pb-2 mb-6"
+            >
+              Makanan
+            </h3>
+            <div class="group flex justify-between items-start">
+              <div class="max-w-[70%]">
+                <h4
+                  class="font-body-md font-bold text-on-surface group-hover:text-secondary transition-colors"
+                >
+                  Garang Asem Ayam Kampung
+                </h4>
+                <p class="text-body-sm text-on-surface-variant">
+                  Olahan ayam kampung khas dengan kuah segar, bercita rasa
+                  asam-pedas yang gurih dari belimbing wuluh dan cabai.
+                </p>
+              </div>
+              <span class="font-body-md text-secondary">Rp 25.000</span>
+            </div>
+            <div class="group flex justify-between items-start">
+              <div class="max-w-[70%]">
+                <h4
+                  class="font-body-md font-bold text-on-surface group-hover:text-secondary transition-colors"
+                >
+                  Ayam Opor
+                </h4>
+                <p class="text-body-sm text-on-surface-variant">
+                  Potongan ayam empuk yang dimasak dengan kuah santan kuning
+                  kental kaya rempah.
+                </p>
+              </div>
+              <span class="font-body-md text-secondary">Rp 10.000</span>
+            </div>
+            <div class="group flex justify-between items-start">
+              <div class="max-w-[70%]">
+                <h4
+                  class="font-body-md font-bold text-on-surface group-hover:text-secondary transition-colors"
+                >
+                  Ikan Pindang
+                </h4>
+                <p class="text-body-sm text-on-surface-variant">
+                  Olahan ikan pindang yang ditumis/dioseng dengan irisan cabai,
+                  bawang, dan bumbu
+                </p>
+              </div>
+              <span class="font-body-md text-secondary">Rp 10.000</span>
+            </div>
+            <div class="group flex justify-between items-start">
+              <div class="max-w-[70%]">
+                <h4
+                  class="font-body-md font-bold text-on-surface group-hover:text-secondary transition-colors"
+                >
+                  Ikan Pecak
+                </h4>
+                <p class="text-body-sm text-on-surface-variant">
+                  Ikan goreng yang dimasak dengan bumbu pecak kental yang pedas,
+                  gurih, dan meresap—sekilas mirip bumbu balado yang medok.
+                </p>
+              </div>
+              <span class="font-body-md text-secondary">Rp 10.000</span>
+            </div>
+            <div class="group flex justify-between items-start">
+              <div class="max-w-[70%]">
+                <h4
+                  class="font-body-md font-bold text-on-surface group-hover:text-secondary transition-colors"
+                >
+                  Ikan gesek
+                </h4>
+                <p class="text-body-sm text-on-surface-variant">
+                  Ikan asin goreng garing, sangat cocok sebagai pelengkap nasi
+                  hangat.
+                </p>
+              </div>
+              <span class="font-body-md text-secondary">Rp 5.000/ 4 Pcs</span>
+            </div>
+          </div>
+
+          <!-- Category: Minuman -->
+          <div
+            class="menu-category space-y-6"
+            data-category="minuman"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <h3
+              class="font-headline-md text-primary border-b border-outline-variant pb-2 mb-6"
+            >
+              Minuman
+            </h3>
+            <div class="group flex justify-between items-start">
+              <div class="max-w-[70%]">
+                <h4
+                  class="font-body-md font-bold text-on-surface group-hover:text-secondary transition-colors"
+                >
+                  Wedang Uwuh
+                </h4>
+                <p class="text-body-sm text-on-surface-variant">
+                  Minuman rempah hangat yang menyehatkan.
+                </p>
+              </div>
+              <span class="font-body-md text-secondary">Rp 15.000</span>
+            </div>
+            <div class="group flex justify-between items-start">
+              <div class="max-w-[70%]">
+                <h4
+                  class="font-body-md font-bold text-on-surface group-hover:text-secondary transition-colors"
+                >
+                  Beras Kencur
+                </h4>
+                <p class="text-body-sm text-on-surface-variant">
+                  Jamu segar buatan sendiri, manis dan hangat.
+                </p>
+              </div>
+              <span class="font-body-md text-secondary">Rp 12.000</span>
+            </div>
+            <div class="group flex justify-between items-start">
+              <div class="max-w-[70%]">
+                <h4
+                  class="font-body-md font-bold text-on-surface group-hover:text-secondary transition-colors"
+                >
+                  Es Gula Jawa
+                </h4>
+                <p class="text-body-sm text-on-surface-variant">
+                  Kesegaran gula aren asli dengan kelapa muda.
+                </p>
+              </div>
+              <span class="font-body-md text-secondary">Rp 18.000</span>
+            </div>
+            <div class="group flex justify-between items-start">
+              <div class="max-w-[70%]">
+                <h4
+                  class="font-body-md font-bold text-on-surface group-hover:text-secondary transition-colors"
+                >
+                  Teh Tarik Kampung
+                </h4>
+                <p class="text-body-sm text-on-surface-variant">
+                  Teh hitam kuat dengan susu segar tarik.
+                </p>
+              </div>
+              <span class="font-body-md text-secondary">Rp 14.000</span>
+            </div>
+            <div class="group flex justify-between items-start">
+              <div class="max-w-[70%]">
+                <h4
+                  class="font-body-md font-bold text-on-surface group-hover:text-secondary transition-colors"
+                >
+                  Jahe Merah Serai
+                </h4>
+                <p class="text-body-sm text-on-surface-variant">
+                  Minuman penghangat tubuh rempah pilihan.
+                </p>
+              </div>
+              <span class="font-body-md text-secondary">Rp 16.000</span>
+            </div>
+          </div>
+
+          <!-- Category: Cemilan -->
+          <div
+            class="menu-category space-y-6"
+            data-category="cemilan"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <h3
+              class="font-headline-md text-primary border-b border-outline-variant pb-2 mb-6"
+            >
+              Cemilan
+            </h3>
+            <div class="group flex justify-between items-start">
+              <div class="max-w-[70%]">
+                <h4
+                  class="font-body-md font-bold text-on-surface group-hover:text-secondary transition-colors"
+                >
+                  Pisang Goreng Gula Aren
+                </h4>
+                <p class="text-body-sm text-on-surface-variant">
+                  Pisang kepok goreng renyah dengan saus gula aren.
+                </p>
+              </div>
+              <span class="font-body-md text-secondary">Rp 20.000</span>
+            </div>
+            <div class="group flex justify-between items-start">
+              <div class="max-w-[70%]">
+                <h4
+                  class="font-body-md font-bold text-on-surface group-hover:text-secondary transition-colors"
+                >
+                  Singkong Rebus Empuk
+                </h4>
+                <p class="text-body-sm text-on-surface-variant">
+                  Singkong mentega yang merekah, gurih kelapa.
+                </p>
+              </div>
+              <span class="font-body-md text-secondary">Rp 18.000</span>
+            </div>
+            <div class="group flex justify-between items-start">
+              <div class="max-w-[70%]">
+                <h4
+                  class="font-body-md font-bold text-on-surface group-hover:text-secondary transition-colors"
+                >
+                  Mendoan Panas
+                </h4>
+                <p class="text-body-sm text-on-surface-variant">
+                  Tempe mendoan lebar dengan cocolan sambal kecap.
+                </p>
+              </div>
+              <span class="font-body-md text-secondary">Rp 15.000</span>
+            </div>
+            <div class="group flex justify-between items-start">
+              <div class="max-w-[70%]">
+                <h4
+                  class="font-body-md font-bold text-on-surface group-hover:text-secondary transition-colors"
+                >
+                  Klepon Isi Gula Jawa
+                </h4>
+                <p class="text-body-sm text-on-surface-variant">
+                  Kue klepon hijau kenyal dengan kelapa parut.
+                </p>
+              </div>
+              <span class="font-body-md text-secondary">Rp 12.000</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-16 text-center" data-aos="fade-up">
+          <button
+            class="bg-primary text-on-primary px-10 py-4 rounded-xl font-body-md font-bold hover:opacity-90 transition-all duration-300"
+          >
+            Unduh Menu Lengkap (PDF)
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================
+         FACILITIES SECTION
+         ================== -->
+    <section id="facilities" class="py-section-gap bg-surface relative">
+      <div class="absolute inset-0 batik-overlay pointer-events-none"></div>
+      <div class="max-w-container-max mx-auto px-6 md:px-margin-desktop">
+        <div class="text-center mb-16" data-aos="fade-up">
+          <span class="text-secondary font-label-md tracking-widest uppercase"
+            >Fasilitas Kami</span
+          >
+          <h2 class="font-headline-lg text-headline-lg mt-2 text-primary">
+            Fasilitas &amp; Ruang Acara
+          </h2>
+          <div class="section-divider"></div>
+          <p class="text-on-surface-variant mt-4 max-w-2xl mx-auto">
+            Temukan ruang yang tepat untuk momen berharga Anda, dari pertemuan
+            bisnis hingga perayaan keluarga besar.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+          <!-- Facility Card 1 -->
+          <div
+            class="facility-card bg-surface-container-lowest border border-outline-variant/30 rounded-2xl overflow-hidden hover:shadow-xl transition-shadow"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="h-56 overflow-hidden">
+              <img
+                class="facility-img w-full h-full object-cover"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0UaUYz8SL7SZ0OR4iFZsDFfVipfakQiX-1NLPRTPgyLT8zj5hGUcTVWC1rSraCE1ksaOMPSCuTcvdc3s7RfEyuYCb74Jlh-cYFeld3IsMVKET8vXKJIri-1f9MohxXn7uqBc6nhS29MWZqhNp5a108mHKFqdSG4Yx3hK40NQIPPQct40-1evbzKI7-ZKajFNfinSF-6br4j9xreLDiS-e0cyNmX90dXrLGSD8GEGehp-RCVSY1bfHADk5kf98jik7wbRNqo96b30"
+                alt="Area Waroeng Jadoel"
+              />
+            </div>
+            <div class="p-6 space-y-4">
+              <h3 class="font-headline-md text-primary">Area Waroeng Jadoel</h3>
+              <p class="text-body-sm text-on-surface-variant">
+                Area makan utama dengan nuansa tradisional Jawa yang kental.
+              </p>
+              <div class="space-y-2">
+                <div class="flex items-center gap-2 text-on-surface-variant">
+                  <span class="material-symbols-outlined text-secondary"
+                    >groups</span
+                  >
+                  <span class="font-body-sm">Kapasitas: 50+ orang</span>
+                </div>
+                <div class="flex items-center gap-2 text-on-surface-variant">
+                  <span class="material-symbols-outlined text-secondary"
+                    >restaurant</span
+                  >
+                  <span class="font-body-sm">Fungsi: Casual Dining</span>
+                </div>
+              </div>
+              <button
+                class="booking-btn w-full bg-secondary text-on-primary py-3 rounded-xl font-label-md font-bold hover:opacity-90 transition-all cursor-pointer"
+                data-room="Area Waroeng Jadoel"
+              >
+                Booking Sekarang
+              </button>
+            </div>
+          </div>
+
+          <!-- Facility Card 2 -->
+          <div
+            class="facility-card bg-surface-container-lowest border border-outline-variant/30 rounded-2xl overflow-hidden hover:shadow-xl transition-shadow"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="h-56 overflow-hidden">
+              <img
+                class="facility-img w-full h-full object-cover"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDskv1yb_8vMuG6v3TTOFDvQcP7_7xWUyul2sORHa5cIEerzjpZ6L5SgbmJcQiRl0uhJSD5h9zcjezLCgCT1DpoctBcgpOuWG-DPW0_H9pwy9eu0EE7-2K82U8WJHv2o6VVIe5EqQ_xSEL4G6a7CFpHsCxFBGiFZlje94HESQBizR_XVDwLtjL5ZELO3c4Y5lpnIxjdPGX-fvXjBvkvifO_RmIDhfcxh0z4HRqxKc5MMVy5x5R2nL6NiQxbIKgdSgDgoiZLGhCL5bs"
+                alt="Ruang Meeting Kecil"
+              />
+            </div>
+            <div class="p-6 space-y-4">
+              <h3 class="font-headline-md text-primary">Ruang Meeting Kecil</h3>
+              <p class="text-body-sm text-on-surface-variant">
+                Bangunan semi-private yang nyaman untuk suasana pertemuan yang
+                lebih intim.
+              </p>
+              <div class="space-y-2">
+                <div class="flex items-center gap-2 text-on-surface-variant">
+                  <span class="material-symbols-outlined text-secondary"
+                    >group</span
+                  >
+                  <span class="font-body-sm">Kapasitas: 10-15 orang</span>
+                </div>
+                <div class="flex items-center gap-2 text-on-surface-variant">
+                  <span class="material-symbols-outlined text-secondary"
+                    >business_center</span
+                  >
+                  <span class="font-body-sm">Fungsi: Small Meetings</span>
+                </div>
+              </div>
+              <button
+                class="booking-btn w-full bg-secondary text-on-primary py-3 rounded-xl font-label-md font-bold hover:opacity-90 transition-all cursor-pointer"
+                data-room="Ruang Meeting Kecil"
+              >
+                Booking Sekarang
+              </button>
+            </div>
+          </div>
+
+          <!-- Facility Card 3 -->
+          <div
+            class="facility-card bg-surface-container-lowest border border-outline-variant/30 rounded-2xl overflow-hidden hover:shadow-xl transition-shadow"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="h-56 overflow-hidden">
+              <img
+                class="facility-img w-full h-full object-cover"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7JVAr2aNMZTytm6f7NuOlYL09iNunvqMmGFjaf9mVrBDHofmplLqn3_mi_pZrI_Jv0QCejs988D7iDFYirRizncA4h9LztxE0wAindLg09D_sYHtIP7il8hGQFSBhKfTxDG0BgTjUCW3LpF07w6EcKGfUZGlN0wNTeP5aUAGtl8uF3MhoWbGpk922v1ptyfZt6u6de6gfXtYx1Y6ltmPUsvYSYax-3zvnjeH0bkMyj2UO_FGkXybGCPAO2WTZcoz8cG1Fto1q1Rg"
+                alt="Aula Gatra Kencana"
+              />
+            </div>
+            <div class="p-6 space-y-4">
+              <h3 class="font-headline-md text-primary">Aula Gatra Kencana</h3>
+              <p class="text-body-sm text-on-surface-variant">
+                Pendopo besar tradisional untuk acara berskala besar.
+              </p>
+              <div class="space-y-2">
+                <div class="flex items-center gap-2 text-on-surface-variant">
+                  <span class="material-symbols-outlined text-secondary"
+                    >diversity_3</span
+                  >
+                  <span class="font-body-sm">Kapasitas: Hingga 100 orang</span>
+                </div>
+                <div class="flex items-center gap-2 text-on-surface-variant">
+                  <span class="material-symbols-outlined text-secondary"
+                    >celebration</span
+                  >
+                  <span class="font-body-sm">Fungsi: Seminar, Wedding</span>
+                </div>
+              </div>
+              <button
+                class="booking-btn w-full bg-secondary text-on-primary py-3 rounded-xl font-label-md font-bold hover:opacity-90 transition-all cursor-pointer"
+                data-room="Aula Gatra Kencana"
+              >
+                Booking Sekarang
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================
+         ABOUT US SECTION
+         ================== -->
+    <section class="py-section-gap bg-surface relative" id="about">
+      <div class="absolute inset-0 batik-overlay pointer-events-none"></div>
+      <div class="max-w-container-max mx-auto px-6 md:px-margin-desktop">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+          <div class="relative order-2 md:order-1" data-aos="fade-right">
+            <div
+              class="absolute -top-10 -left-10 w-40 h-40 batik-overlay bg-primary opacity-10 rounded-full"
+            ></div>
+            <div
+              class="relative z-10 border-8 border-surface-container-high rounded-2xl overflow-hidden shadow-2xl"
+            >
+              <img
+                class="w-full h-72 object-cover mb-1"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbAxWthh1f9VPZBsPJ2aoRZkB9LTwIQC6AIm8ve3wBGVffjq4MNZ1E7mceekhM7Y3zOkbUUZt3EoAnSLKLKZyp1-kDr1CLC_KwqIzD3hrLn_KMrzB3FfiOCC7g2PhPRiSkz47Cp13WYp86WGdh-Bgvn9jN2Eq2uddeXtZUm0DG0KF7EvzjymIrnfFNQux1Q6F60qWMHvjDiJ0YmxlE43WnqkpGn3gMrRsLx7tVxcLg5SzJihgvIaOSorF_orKfXAO2hNUwuK3TsbI"
+                alt="Dapur Tradisional"
+              />
+              <img
+                class="w-full h-72 object-cover"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0UaUYz8SL7SZ0OR4iFZsDFfVipfakQiX-1NLPRTPgyLT8zj5hGUcTVWC1rSraCE1ksaOMPSCuTcvdc3s7RfEyuYCb74Jlh-cYFeld3IsMVKET8vXKJIri-1f9MohxXn7uqBc6nhS29MWZqhNp5a108mHKFqdSG4Yx3hK40NQIPPQct40-1evbzKI7-ZKajFNfinSF-6br4j9xreLDiS-e0cyNmX90dXrLGSD8GEGehp-RCVSY1bfHADk5kf98jik7wbRNqo96b30"
+                alt="Interior Waroeng Jadoel"
+              />
+            </div>
+          </div>
+
+          <div class="order-1 md:order-2" data-aos="fade-left">
+            <span class="text-secondary font-label-md tracking-widest uppercase"
+              >Kisah Kami</span
+            >
+            <h2
+              class="font-headline-lg text-headline-lg text-primary mt-4 mb-8"
+            >
+              Harmoni Tradisi &amp; Rasa di Gatra Kencana
+            </h2>
+            <div class="space-y-6 text-on-surface-variant">
+              <p class="font-body-lg italic text-primary leading-relaxed">
+                "Andhap Ashor - Kerendahan hati yang membawa kedamaian."
+              </p>
+              <p class="font-body-md">
+                Waroeng Jadoel bermula dari kerinduan akan masakan Ibu dan
+                suasana kekeluargaan di desa. Nama 'Gatra Kencana' mencerminkan
+                sebuah citra kemuliaan yang tetap membumi.
+              </p>
+              <p class="font-body-md">
+                Bangunan Joglo kami bukan sekadar dekorasi, melainkan ruang
+                bernapas di mana setiap sudut kayu jati bercerita tentang
+                sejarah dan ketenangan.
+              </p>
+            </div>
+            <div
+              class="mt-10 grid grid-cols-2 gap-8 border-t border-outline-variant/30 pt-10"
+            >
+              <div>
+                <div class="text-headline-md font-bold text-primary">15+</div>
+                <div
+                  class="text-label-md uppercase tracking-wider text-on-surface-variant"
+                >
+                  Resep Warisan
+                </div>
+              </div>
+              <div>
+                <div class="text-headline-md font-bold text-primary">100%</div>
+                <div
+                  class="text-label-md uppercase tracking-wider text-on-surface-variant"
+                >
+                  Bahan Lokal
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================
+         FOOTER / CONTACT
+         ================== -->
+    <footer
+      id="contact"
+      class="w-full py-section-gap bg-surface-container border-t border-outline-variant/50"
+    >
+      <div
+        class="max-w-container-max mx-auto px-6 md:px-margin-desktop grid grid-cols-1 md:grid-cols-3 gap-gutter items-start"
+        data-aos="fade-up"
+      >
+        <div class="space-y-6">
+          <div class="font-headline-md text-headline-md text-primary">
+            Waroeng Jadoel Gatra Kencana
+          </div>
+          <p
+            class="font-body-sm text-on-surface-variant max-w-xs leading-relaxed"
+          >
+            © 2026 Waroeng Jadoel Gatra Kencana. Authentic Javanese Heritage in
+            Pemalang.
+          </p>
+        </div>
+        <div class="space-y-6">
+          <h4 class="font-label-md uppercase tracking-widest text-primary">
+            Kunjungi Kami
+          </h4>
+          <div class="space-y-4">
+            <div class="flex gap-3 items-start">
+              <span class="material-symbols-outlined text-secondary"
+                >location_on</span
+              >
+              <a
+                class="font-body-sm text-on-surface-variant hover:text-primary transition-colors"
+                href="#"
+              >
+                Jl. Anggur, Bojongbata, Bojongnangka, Kec. Pemalang, Kabupaten
+                Pemalang, Jawa Tengah
+              </a>
+            </div>
+            <div class="flex gap-3 items-center">
+              <span class="material-symbols-outlined text-secondary"
+                >schedule</span
+              >
+              <p class="font-body-sm text-on-surface-variant">
+                Senin - Minggu: 08.00 - 18.00 WIB
+              </p>
+            </div>
+            <div class="flex gap-3 items-center">
+              <span class="material-symbols-outlined text-secondary"
+                >phone</span
+              >
+              <a
+                class="font-body-sm text-on-surface-variant hover:text-primary transition-colors"
+                href="https://wa.me/628123456789"
+                >+62 812-3456-789</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="space-y-6">
+          <h4 class="font-label-md uppercase tracking-widest text-primary">
+            Informasi
+          </h4>
+          <nav class="flex flex-col gap-3">
+            <a
+              class="font-body-sm text-on-surface-variant hover:text-primary hover:underline decoration-primary underline-offset-4 transition-all"
+              href="#"
+              >Alamat Kami</a
+            >
+            <a
+              class="font-body-sm text-on-surface-variant hover:text-primary hover:underline decoration-primary underline-offset-4 transition-all"
+              href="#"
+              >Jam Operasional</a
+            >
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ==================
+         FLOATING WHATSAPP
+         ================== -->
+    <a
+      id="wa-float"
+      href="https://wa.me/628123456789"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="fixed bottom-8 right-8 z-[60] bg-[#25D366] text-white flex items-center gap-3 px-6 py-4 rounded-full shadow-2xl"
+    >
+      <span class="material-symbols-outlined !text-3xl">chat</span>
+      <span class="font-body-md font-bold">Hubungi Kami via WhatsApp</span>
+    </a>
+
+    <!-- ==================
+         BOOKING MODAL
+         ================== -->
+    <div
+      id="booking-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-room-title"
+    >
+      <!-- Overlay -->
+      <div id="modal-overlay" class="absolute inset-0"></div>
+
+      <!-- Modal Content -->
+      <div
+        id="booking-modal-inner"
+        class="relative bg-surface-container-lowest rounded-2xl shadow-2xl max-w-md w-full mx-auto p-8 border border-outline-variant/40"
+      >
+        <!-- Close Button -->
+        <button
+          id="modal-close"
+          class="absolute top-4 right-4 text-on-surface-variant hover:text-primary transition-colors"
+          aria-label="Tutup modal"
+        >
+          <span class="material-symbols-outlined">close</span>
+        </button>
+
+        <!-- Modal Header -->
+        <div class="mb-6">
+          <span class="text-secondary font-label-md tracking-widest uppercase"
+            >Booking Ruangan</span
+          >
+          <h3
+            id="modal-room-title"
+            class="font-headline-md text-headline-md text-primary mt-2"
+          >
+            <!-- Room name injected by JS -->
+          </h3>
+        </div>
+
+        <!-- Room Details -->
+        <div class="bg-surface-container-low rounded-xl p-4 mb-6 space-y-3">
+          <div class="flex items-center gap-3 text-on-surface-variant">
+            <span class="material-symbols-outlined text-secondary text-xl"
+              >info</span
+            >
+            <p class="font-body-sm">
+              Booking akan dilanjutkan melalui WhatsApp kami untuk konfirmasi
+              ketersediaan tanggal dan detail acara.
+            </p>
+          </div>
+          <div class="flex items-center gap-3 text-on-surface-variant">
+            <span class="material-symbols-outlined text-secondary text-xl"
+              >schedule</span
+            >
+            <p class="font-body-sm">Jam layanan: 08.00 – 18.00 WIB</p>
+          </div>
+          <div class="flex items-center gap-3 text-on-surface-variant">
+            <span class="material-symbols-outlined text-secondary text-xl"
+              >phone</span
+            >
+            <p class="font-body-sm">+62 812-3456-789</p>
+          </div>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="flex flex-col gap-3">
+          <button
+            id="wa-booking-btn"
+            class="w-full bg-[#25D366] text-white py-4 rounded-xl font-body-md font-bold flex items-center justify-center gap-3 hover:bg-[#1ebe5d] transition-colors cursor-pointer"
+          >
+            <span class="material-symbols-outlined">chat</span>
+            Lanjutkan via WhatsApp
+          </button>
+          <button
+            id="modal-close-secondary"
+            onclick="
+              document
+                .getElementById('booking-modal')
+                .classList.remove('active');
+              document.body.style.overflow = '';
+            "
+            class="w-full border border-outline text-on-surface-variant py-3 rounded-xl font-body-md hover:bg-surface-variant transition-colors cursor-pointer"
+          >
+            Kembali
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
