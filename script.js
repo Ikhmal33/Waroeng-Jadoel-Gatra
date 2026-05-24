@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const msg = encodeURIComponent(
         `Halo, saya ingin booking ${room} di Waroeng Jadoel Gatra Kencana. Mohon informasi ketersediaan dan harganya. Terima kasih!`,
       );
-      window.open(`https://wa.me/628123456789?text=${msg}`, "_blank");
+      window.open(`https://wa.me/6282135828317?text=${msg}`, "_blank");
     });
   }
 
@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const msg = encodeURIComponent(
         "Halo, saya ingin melakukan reservasi di Waroeng Jadoel Gatra Kencana. Mohon informasinya. Terima kasih!",
       );
-      window.open(`https://wa.me/628123456789?text=${msg}`, "_blank");
+      window.open(`https://wa.me/6282135828317?text=${msg}`, "_blank");
     });
   }
 
